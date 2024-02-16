@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+.outfit-font{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400, 500, 700;
+  font-style: normal;
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.herosection{
+    background: url(./assets/images/image-omelette.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 70vh;
+}
+
+.simpleOmele{
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.sectionHeader{
+    font-weight:400;
+    font-family: young serif;
+    text-transform: capitalize;
+    font-size: 40px;
+    padding: 10px 10px 10px 0;
+    color: hsl(24, 5%, 18%);
+}
+
+.sectionParagraph{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: outfit;
+}
+
+.preparationandIngredient{
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 30px 0;
+    height: fit-content;
+}
+
+.prepation{
+    height: fit-content;
+    padding: 20px 15px;
+    background-color: hsl(330, 100%, 98%);
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.smallHeader{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: outfit;
+    padding: 10px;
+    color: hsl(14, 45%, 36%);
+}
+
+.preparationList{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 15px 15px;
+}
+
+.preparationList li{
+    color: hsl(30, 10%, 34%);
+    margin: 5px 0;
+    font-family: outfit;
+    font-size: 16px;
+}
+
+.preparationList li h4{
+    display: inline-flex;
+    padding: 3px;
+    font-weight: 600;
+}
+
+.instructions{
+    padding: 20px;
+}
+
+.instruction{
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 30px 0;
+    padding-top: 0;
+    height: fit-content;
+}
+
+.table{
+    width: 100%;
+    padding: 30px 30px;
+}
+
+td{
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+    margin: 0 10px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    color: hsl(24, 5%, 18%);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: outfit;
+}
+
+.boldone{
+    color: hsl(14, 45%, 36%);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: outfit;
+}
+
+hr{
+   background: hsl(30, 18%, 87%);
+   width: 100%;
+}
+
+@media screen and (max-width:375px){
+    body{
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .section{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .herosection{
+        background: url(./assets/images/image-omelette.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 20vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    
+    .simpleOmele{
+        display: flex;
+        flex-direction: column;
+        height: 25vh;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 10px 0;
+        margin-top: 150px;
+    }
+    
+    .sectionHeader{
+        font-weight:400;
+        font-family: young serif;
+        text-transform: capitalize;
+        font-size: 30px;
+        padding: 10px 10px 10px 0;
+        color: hsl(24, 5%, 18%);
+    }
+    
+    .sectionParagraph{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: outfit;
+    }
+    
+    .preparationandIngredient{
+        display: flex;
+        align-items:flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 30px 0;
+        height: fit-content;
+    }
+    
+    .prepation{
+        height: fit-content;
+        padding: 20px 15px;
+        background-color: hsl(330, 100%, 98%);
+        width: 100%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    .smallHeader{
+        font-size: 25px;
+        font-weight: 600;
+        font-family: outfit;
+        padding: 10px;
+        color: hsl(14, 45%, 36%);
+    }
+    
+    .preparationList{
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px 15px 15px;
+    }
+    
+    .preparationList li{
+        color: hsl(30, 10%, 34%);
+        margin: 5px 0;
+        font-family: outfit;
+        font-size: 16px;
+    }
+    
+    .preparationList li h4{
+        display: inline-flex;
+        padding: 3px;
+        font-weight: 600;
+    }
+    
+    .instructions{
+        padding: 20px;
+    }
+    
+    .instruction{
+        display: flex;
+        align-items:flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 30px 0;
+        padding-top: 0;
+        height: fit-content;
+    }
+    
+    .table{
+        width: 100%;
+        padding: 30px 30px;
+    }
+    
+    td{
+        border-bottom: 1px solid hsl(30, 54%, 90%);
+        margin: 0 10px;
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        text-align: left;
+        color: hsl(24, 5%, 18%);
+        font-size: 16px;
+        font-weight: 400;
+        font-family: outfit;
+    }
+    
+    .boldone{
+        color: hsl(14, 45%, 36%);
+        font-size: 16px;
+        font-weight: 700;
+        font-family: outfit;
+    }
+    
+    hr{
+       background: hsl(30, 18%, 87%);
+       width: 100%;
+    }
+}
